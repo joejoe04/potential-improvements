@@ -36,6 +36,7 @@ https://github.com/wp-media/imagify/issues/512 - Should users w/ One Time Quota 
 
 - The fifth one shows how the WELL DONE... images could be displayed differently
   - When I first saw a "WELL DONE" image, I thought it meant something was wrong. I think this impression is given because the layout is different than the layout for successfully optimized images (it's more similar to error messages in my opinion) and also the "Try Again" button implies that it's necessary to try again for some reason
+    - Example: https://wordpress.org/support/topic/difference-in-display-2/
   - This suggested layout gives less the impression that something is wrong, but instead just that no compression was needed at the current level, and it also gives them the option to try optimization at a different level if they want.
   - If needed, could also display a "Generate Missing WebP Images" too, which is more intuitive for users than the "Try Again" button.
 
