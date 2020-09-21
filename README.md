@@ -6,9 +6,7 @@ https://github.com/wp-media/imagify/issues/928 - Require Email Confirmation to c
 
 https://github.com/wp-media/imagify/issues/898 - Allow to search users by name/surname/part of the email
 
-https://github.com/wp-media/imagify/issues/714 - When scheduling a cancellation, quota is reseted when it shouldn't
-
-https://github.com/wp-media/imagify/issues/123 - Style “already compressed” message as info instead of warning
+https://github.com/wp-media/imagify/issues/714 - When scheduling a cancellation, quota is reset when it shouldn't
 
 https://github.com/wp-media/imagify/issues/886 - Allow admins to increase available quota by any value
 
