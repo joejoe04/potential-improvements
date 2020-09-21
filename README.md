@@ -52,7 +52,7 @@ https://secure.helpscout.net/conversation/1281787405/194734 <br>
 
 <br><br>
 ## Suggestion for Upgrades / Downgrades
-Lay out all credits, prorated charges, and the final amount user will be charged for upgrade/downgrade:
+Lay out all credits, prorated charges, and the final amount user will be charged for upgrade/downgrade during the checkout process:
 ### Upgrades
 - Credit amount for unused portion of former plan
 - Prorated charge for remainder of billing period on new plan
@@ -71,7 +71,7 @@ Lay out all credits, prorated charges, and the final amount user will be charged
 
 <br><br>
 ## Offer Better Optimization Error Messages
-- Is there any way to prevent cURL error 28s from giving the error message that users are out of credit?
+- Is there any way to prevent cURL error 28 errors or timeouts during optimization from giving the error message that users are out of credit?
     - It leads to them buying more quota when they don't need it, or getting frustrated that they just bought a plan and think they've already run out of quota.
     
 
