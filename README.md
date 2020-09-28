@@ -17,7 +17,7 @@ https://github.com/wp-media/imagify/issues/512 - Should users w/ One Time Quota 
 ## Suggestions for Media Library Page
 
 ### Improve display of Optimization Info for Each Image
-<img src="https://pouch.jumpshare.com/preview/K7S3IS-H7yBXnx3vGl32GGOxImmOpf129e_SMzcYN8DoEHRHKFNro9uIIehIbUwxuDmz5BJ_75LCPTNBy6W-VxA1jQB_zmxltR5bgJ1-nls">
+<img src="https://pouch.jumpshare.com/preview/K7S3IS-H7yBXnx3vGl32GGOxImmOpf129e_SMzcYN8Aa4uy9A1Ba1TTVvP4qjrmsf63qNfoycMkzK69U8Y6-bjJprjKJn4snkOQIlHyX-Do">
 
 - Above is a potential new way optimization information could be laid out for users
   - I think it organizes info in a way that's more intuitive for users, and is more concise
