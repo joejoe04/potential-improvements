@@ -17,7 +17,7 @@ https://github.com/wp-media/imagify/issues/512 - Should users w/ One Time Quota 
 ## Suggestions for Media Library Page
 
 ### Improve display of Optimization Info for Each Image
-<img src="https://pouch.jumpshare.com/preview/K7S3IS-H7yBXnx3vGl32GGOxImmOpf129e_SMzcYN8Aa4uy9A1Ba1TTVvP4qjrmsf63qNfoycMkzK69U8Y6-bjJprjKJn4snkOQIlHyX-Do">
+<img src="https://i.imgur.com/viNffOx.jpg">
 
 - Above is a potential new way optimization information could be laid out for users
   - I think it organizes info in a way that's more intuitive for users, and is more concise
@@ -83,10 +83,10 @@ Lay out all credits, prorated charges, and the final amount user will be charged
 ### Make the quota used / quota left guage more consistent across the App and the plugin
 
 - Displays in the App as follows:
-<img src="https://pouch.jumpshare.com/preview/nZUJmRs3meRDAfTSeYcQv1f7wtvt_ayaEE0sEXybf106FS-nm-4J1zGXh8_fwvBM4nT8TF0cwvWIuCpsXrIWFxA1jQB_zmxltR5bgJ1-nls">
+<img src="https://i.imgur.com/VhNgfuG.jpg">
 
 - Displays in the plugin as follows:
-<img src="https://pouch.jumpshare.com/preview/8aWzLmEJJa5avwJBWpSKm2oB-ZawhDZJYsFZfVDfcK5tUzkyw7kT5w9iBC9U7P6NzQ0E0q2ZR4Du4OGEGOAEGBA1jQB_zmxltR5bgJ1-nls">
+<img src="https://i.imgur.com/UKQ31aA.jpg">
 
 - Might be good to also display the 32.04 / 525MB used to make the experience more consistent
 
@@ -98,10 +98,10 @@ Lay out all credits, prorated charges, and the final amount user will be charged
 - Could state somewhere on the Bulk Optimization page that images already optimized at current level will not be re-optimized if you run Bulk Optimizer multiple times
 
 - I think the following may also contribute to this feeling from users. In this example, user has 8 images listed as already being optimized
-<img src="https://pouch.jumpshare.com/preview/E1CFhOlj86te4zy-4CNIHHR2FewBH3aRF-NtmYxEHGTJ2MU80izrmOGS4-hGncMwi87lFnDe0atoAS8kUy9WahA1jQB_zmxltR5bgJ1-nls">
+<img src="https://i.imgur.com/1SSLMxl.jpg">
 
 - But when you click "Imagif'em All" that number goes back down to 0, giving the impression that the 8 images may be being re-optimized
-<img src="https://pouch.jumpshare.com/preview/AGYx0gOk6nJShNXvBpnd4WNVQ8ONKVhuJ6_lkbCCJnyayo2fiuWwhOiCABOcgBV4EI-tswN7wM1e-3A_ft72VBA1jQB_zmxltR5bgJ1-nls">
+<img src="https://i.imgur.com/wcRIrw3.jpg">
 
 - Instead, it may be better for this number to remain the same, and only increase if more images get optimized. The percentage could still start at 0% giving an indication of how much of the overall process has been completed as it makes its way to 100%
 
