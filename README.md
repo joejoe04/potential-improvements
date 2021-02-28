@@ -8,40 +8,6 @@ https://github.com/wp-media/imagify/issues/886 - Allow admins to increase availa
 
 
 <br><br>
-# Suggestions for Media Library Page
-
-## Improve display of Optimization Info for Each Image
-<img src="https://i.imgur.com/viNffOx.jpg">
-
-- Above is a potential new way optimization information could be laid out for users
-  - I think it organizes info in a way that's more intuitive for users, and is more concise
-
-- The first listing is how information is currently listed
-
-- The second one is how a listing could appear without the details expanded
-  - Shows more information in same amount of space
-  - I think users mostly want to know how much filesize savings they're getting, both in terms of the original filesize and the overall filesize, so I make both of these values visible along with the percentage savings
-
-- The third one shows a successfully optimized image expanded to show all details
-  - Also allows options to restore to original and to re-optimize to different levels of compression
-
-- The fourth one shows how for images that need them, links for "Generate Missing WebP Images" or "Optimize Missing Thumbnails" links could be displayed
-  - Also shows how space at the bottom could be used to display any notes or messages needed about a particular image
-
-- The fifth one shows how the WELL DONE... images could be displayed differently
-  - When I first saw a "WELL DONE" image, I thought it meant something was wrong. I think this impression is given because the layout is different than the layout for successfully optimized images (it's more similar to error messages in my opinion) and also the "Try Again" button implies that it's necessary to try again for some reason
-    - Example: https://wordpress.org/support/topic/difference-in-display-2/
-  - This suggested layout gives less the impression that something is wrong, but instead just that no compression was needed at the current level, and it also gives them the option to try optimization at a different level if they want.
-  - If needed, could also display a "Generate Missing WebP Images" too, which is more intuitive for users than the "Try Again" button.
-
-- One other point of confusion (that is not addressed in the image above) is that users often are confused that the "New Filesize" value is the file size of the WebP version when WebP creation is enabled. I've had many tickets where users are confused why the size of the image displayed on their page is different than the "New Filesize" value (happens when the jpg/png version is being displayed rather than the WebP version).
-
-## When optimization is hanging in Media Library on images, would be nice to have a way to stop it
-- Frustrating for users when it's just hanging on the "Optimizing..." for many minutes without a way for them to stop it
-- Would also be nice for while we are testing different things to be able to stop optimization
-
-
-<br><br>
 # Suggestion for Upgrades / Downgrades
 Lay out all credits, prorated charges, and the final amount user will be charged for upgrade/downgrade during the checkout process:
 ## Upgrades
@@ -50,7 +16,7 @@ Lay out all credits, prorated charges, and the final amount user will be charged
 - Actual amount will be charged for upgrade
 - Normal payment going forward
 
-<br>
+<br><br>
 ## Downgrades
 - Credit amount for unused portion of former plan
 - Prorated charge for remainder of billing period on new plan
@@ -142,6 +108,43 @@ https://secure.helpscout.net/conversation/1437812406/242889?folderId=676697
 
 <br><br>
 ## IMAGIFY20 Coupon Code Banner Still Showing in Bulk Optimization Page
+
+
+
+
+
+<br><br>
+# Suggestions for Media Library Page
+
+## Improve display of Optimization Info for Each Image
+<img src="https://i.imgur.com/viNffOx.jpg">
+
+- Above is a potential new way optimization information could be laid out for users
+  - I think it organizes info in a way that's more intuitive for users, and is more concise
+
+- The first listing is how information is currently listed
+
+- The second one is how a listing could appear without the details expanded
+  - Shows more information in same amount of space
+  - I think users mostly want to know how much filesize savings they're getting, both in terms of the original filesize and the overall filesize, so I make both of these values visible along with the percentage savings
+
+- The third one shows a successfully optimized image expanded to show all details
+  - Also allows options to restore to original and to re-optimize to different levels of compression
+
+- The fourth one shows how for images that need them, links for "Generate Missing WebP Images" or "Optimize Missing Thumbnails" links could be displayed
+  - Also shows how space at the bottom could be used to display any notes or messages needed about a particular image
+
+- The fifth one shows how the WELL DONE... images could be displayed differently
+  - When I first saw a "WELL DONE" image, I thought it meant something was wrong. I think this impression is given because the layout is different than the layout for successfully optimized images (it's more similar to error messages in my opinion) and also the "Try Again" button implies that it's necessary to try again for some reason
+    - Example: https://wordpress.org/support/topic/difference-in-display-2/
+  - This suggested layout gives less the impression that something is wrong, but instead just that no compression was needed at the current level, and it also gives them the option to try optimization at a different level if they want.
+  - If needed, could also display a "Generate Missing WebP Images" too, which is more intuitive for users than the "Try Again" button.
+
+- One other point of confusion (that is not addressed in the image above) is that users often are confused that the "New Filesize" value is the file size of the WebP version when WebP creation is enabled. I've had many tickets where users are confused why the size of the image displayed on their page is different than the "New Filesize" value (happens when the jpg/png version is being displayed rather than the WebP version).
+
+## When optimization is hanging in Media Library on images, would be nice to have a way to stop it
+- Frustrating for users when it's just hanging on the "Optimizing..." for many minutes without a way for them to stop it
+- Would also be nice for while we are testing different things to be able to stop optimization
 
 
 <br><br>
