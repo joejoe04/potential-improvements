@@ -2,15 +2,11 @@
 <br><br>
 ## Suggestions to add to the Support Wishlist
 
-https://github.com/wp-media/imagify/issues/928 - Require Email Confirmation to change email
-
-https://github.com/wp-media/imagify/issues/898 - Allow to search users by name/surname/part of the email
+https://github.com/wp-media/imagify/issues/898 - Allow to search users by name, surname, or partial email
 
 https://github.com/wp-media/imagify/issues/714 - When scheduling a cancellation, quota is reset when it shouldn't
 
 https://github.com/wp-media/imagify/issues/886 - Allow admins to increase available quota by any value
-
-https://github.com/wp-media/imagify/issues/512 - Should users w/ One Time Quota have their plan displayed as "Free"?
 
 
 <br><br>
@@ -39,6 +35,8 @@ https://github.com/wp-media/imagify/issues/512 - Should users w/ One Time Quota 
     - Example: https://wordpress.org/support/topic/difference-in-display-2/
   - This suggested layout gives less the impression that something is wrong, but instead just that no compression was needed at the current level, and it also gives them the option to try optimization at a different level if they want.
   - If needed, could also display a "Generate Missing WebP Images" too, which is more intuitive for users than the "Try Again" button.
+
+- One other point of confusion (that is not addressed in the image above) is that users often are confused that the "New Filesize" value is the file size of the WebP version when WebP creation is enabled. I've had many tickets where users are confused why the size of the image displayed on their page is different than the "New Filesize" value (happens when the jpg/png version is being displayed rather than the WebP version).
 
 ### When optimization is hanging in Media Library on images, would be nice to have a way to stop it
 - Frustrating for users when it's just hanging on the "Optimizing..." for many minutes without a way for them to stop it
