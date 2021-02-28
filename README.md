@@ -44,12 +44,6 @@ https://github.com/wp-media/imagify/issues/886 - Allow admins to increase availa
 
 
 <br><br>
-## Issue Where Multiple Invoices Generated
-https://secure.helpscout.net/conversation/1281787405/194734 <br>
-- For seemingly random reasons, sometimes accounts have many invoices generated in Facturation for the same charge
-- Invoices can be created multiple times on different days
-
-<br><br>
 ## Suggestion for Upgrades / Downgrades
 Lay out all credits, prorated charges, and the final amount user will be charged for upgrade/downgrade during the checkout process:
 ### Upgrades
@@ -61,12 +55,27 @@ Lay out all credits, prorated charges, and the final amount user will be charged
 - Credit amount for unused portion of former plan
 - Prorated charge for remainder of billing period on new plan
 - Amount of credit left on account after accounting for the 2 above values
-- Normal payment going forward
+- Normal payment amount after credit used
+
 
 <br><br>
-## Allow creation of sub-accounts for users with One Time quota
-- Might be useful for agencies that want to create accounts for clients but don't want the monthly plans.
-  - Example: https://secure.helpscout.net/conversation/1285144609/195623/
+## Could We Possibly Change How Updates Are Charged?
+https://secure.helpscout.net/conversation/1426138959/239537/
+https://wp-media.slack.com/archives/C7CTJKAA2/p1614062521002000
+- When upgrading from monthly to yearly, the charge is made immediately
+- But if upgrading from Growth monthly to Infinite monthly, the charge is not made immediately
+- This causes confusion and frustration because users usually think the charge is being applied immediately, so when their next payment is larger than they expect, they don't understand why
+- Also, if they happen to cancel that same month, they still end up getting charged for the upgrade at the end after they've unsubscribed and they get mad about the charge
+- They may also delete their card or PayPal billing agreement in the meantime and then we end up not getting the money for the upgrade at all.
+
+
+<br><br>
+## Cannot Switch PayPal Payments From Monthly to Yearyl or Vice Versa
+- Is this fixable from our end in any way?
+- Might involve process where making this change in Imagify profile does the following in Braintree:
+    - Cancel current subscription
+    - Create new subscription with new billing period (monthly or yearly) while charging only the amount for the upgrade minus the remaining value from previous plan
+
 
 <br><br>
 ## Offer Better Optimization Error Messages
@@ -116,3 +125,10 @@ Lay out all credits, prorated charges, and the final amount user will be charged
 
 - Users with One Time quota not able to use the "Auto Convert PNG to JPEG" option. Should they be?
 - Dynamically add year in footer so it stays up to date. Currently displays © WP MEDIA 2017
+
+
+<br><br>
+## Issue Where Multiple Invoices Generated
+https://secure.helpscout.net/conversation/1281787405/194734 <br>
+- For seemingly random reasons, sometimes accounts have many invoices generated in Facturation for the same charge
+- Invoices can be created multiple times on different days
