@@ -1,6 +1,4 @@
-# Improvement Suggestions For Imagify
-<br><br>
-## Suggestions to add to the Support Wishlist
+# Suggestions to add to the Support Wishlist
 
 https://github.com/wp-media/imagify/issues/898 - Allow to search users by name, surname, or partial email
 
@@ -10,9 +8,9 @@ https://github.com/wp-media/imagify/issues/886 - Allow admins to increase availa
 
 
 <br><br>
-## Suggestions for Media Library Page
+# Suggestions for Media Library Page
 
-### Improve display of Optimization Info for Each Image
+## Improve display of Optimization Info for Each Image
 <img src="https://i.imgur.com/viNffOx.jpg">
 
 - Above is a potential new way optimization information could be laid out for users
@@ -38,20 +36,22 @@ https://github.com/wp-media/imagify/issues/886 - Allow admins to increase availa
 
 - One other point of confusion (that is not addressed in the image above) is that users often are confused that the "New Filesize" value is the file size of the WebP version when WebP creation is enabled. I've had many tickets where users are confused why the size of the image displayed on their page is different than the "New Filesize" value (happens when the jpg/png version is being displayed rather than the WebP version).
 
-### When optimization is hanging in Media Library on images, would be nice to have a way to stop it
+## When optimization is hanging in Media Library on images, would be nice to have a way to stop it
 - Frustrating for users when it's just hanging on the "Optimizing..." for many minutes without a way for them to stop it
 - Would also be nice for while we are testing different things to be able to stop optimization
 
 
 <br><br>
-## Suggestion for Upgrades / Downgrades
+# Suggestion for Upgrades / Downgrades
 Lay out all credits, prorated charges, and the final amount user will be charged for upgrade/downgrade during the checkout process:
-### Upgrades
+## Upgrades
 - Credit amount for unused portion of former plan
 - Prorated charge for remainder of billing period on new plan
 - Actual amount will be charged for upgrade
 - Normal payment going forward
-### Downgrades
+
+<br>
+## Downgrades
 - Credit amount for unused portion of former plan
 - Prorated charge for remainder of billing period on new plan
 - Amount of credit left on account after accounting for the 2 above values
@@ -70,11 +70,23 @@ https://wp-media.slack.com/archives/C7CTJKAA2/p1614062521002000
 
 
 <br><br>
+## Issue With Switching a User's Subscription to Annual Billing
+= Stripe (think Braintree too) does not register the change via cron job from Imagify when you set "Is Monthly" to No
+= It works if you're changing to a [plan] 3 months, but not if only changing the "Is Monthly" option
+
+
+<br><br>
 ## Cannot Switch PayPal Payments From Monthly to Yearyl or Vice Versa
 - Is this fixable from our end in any way?
 - Might involve process where making this change in Imagify profile does the following in Braintree:
     - Cancel current subscription
     - Create new subscription with new billing period (monthly or yearly) while charging only the amount for the upgrade minus the remaining value from previous plan
+
+
+<br><br>
+## Subscription Page Shows $69.93 Price for Infinite Yearly Plan With WPR30 Coupon, But Charges Them $84.92
+https://secure.helpscout.net/conversation/1353317619/218627 
+https://secure.helpscout.net/conversation/1404252273/0/
 
 
 <br><br>
@@ -119,6 +131,18 @@ https://wp-media.slack.com/archives/C7CTJKAA2/p1614062521002000
 - Users don't understand why the numbers don't match up sometimes
 - Could change this so both display numbers for all media files so it's more consistent
 - Could also change the "Overview" section so it shows number and percentage of all media files optimized, then display subcategories for specific types, like images, PDFs, etc
+
+
+<br><br>
+ONE-TIME PLANS STILL MENTIONED WHEN RUN OUT OF CREDITS IN BULK OPTIMIZER AND THE WEBSITE ACCOUNT DROPDOWN MENU
+## One-time Plans Still Mentioned When Run Out of Credits in Bulk Optimizer and the Website Account Dropdown Menue
+https://secure.helpscout.net/conversation/1397903954/231854?folderId=676697 
+https://secure.helpscout.net/conversation/1437812406/242889?folderId=676697
+
+
+<br><br>
+## IMAGIFY20 Coupon Code Banner Still Showing in Bulk Optimization Page
+
 
 <br><br>
 ## Suggestions for the Online App
