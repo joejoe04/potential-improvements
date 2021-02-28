@@ -22,8 +22,6 @@ Lay out all credits, prorated charges, and the final amount user will be charged
 - Amount of credit left on account after accounting for the 2 above values
 - Normal payment amount after credit used
 
-
-<br><br>
 ## Could We Possibly Change How Updates Are Charged?
 https://secure.helpscout.net/conversation/1426138959/239537/
 
