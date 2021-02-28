@@ -56,10 +56,9 @@ https://secure.helpscout.net/conversation/1404252273/0/
     
 
 <br><br>
-## Bulk Optimizer Page Potential Improvements
+# Bulk Optimizer Page Potential Improvements
 
-
-### Make the quota used / quota left guage more consistent across the App and the plugin
+## Make the quota used / quota left guage more consistent across the App and the plugin
 
 - Displays in the App as follows:
 <img src="https://i.imgur.com/VhNgfuG.jpg">
@@ -69,8 +68,7 @@ https://secure.helpscout.net/conversation/1404252273/0/
 
 - Might be good to also display the 32.04 / 525MB used to make the experience more consistent
 
-
-### Make it clear to users that when the Bulk Optimizer is run multiple times, images that are already optimized are not re-optimized
+## Make it clear to users that when the Bulk Optimizer is run multiple times, images that are already optimized are not re-optimized
 
 - Users often get the sense their quota is being wasted optimizing images that have already been optimzed when running Bulk Optimizer multiple times
 
@@ -84,23 +82,17 @@ https://secure.helpscout.net/conversation/1404252273/0/
 
 - Instead, it may be better for this number to remain the same, and only increase if more images get optimized. The percentage could still start at 0% giving an indication of how much of the overall process has been completed as it makes its way to 100%
 
-
-### Improve Clarity of the Numbers in the "Overview" and "Optimize Media Files" sections
+## Improve Clarity of the Numbers in the "Overview" and "Optimize Media Files" sections
 
 - It often causes confusion for users that the numbers in the "Overview" section are based only on Image files only (excluding PDF, etc) while the numbers in the "Optimize Media Files" section are based on all media files.
 - Users don't understand why the numbers don't match up sometimes
 - Could change this so both display numbers for all media files so it's more consistent
 - Could also change the "Overview" section so it shows number and percentage of all media files optimized, then display subcategories for specific types, like images, PDFs, etc
 
-
-<br><br>
-ONE-TIME PLANS STILL MENTIONED WHEN RUN OUT OF CREDITS IN BULK OPTIMIZER AND THE WEBSITE ACCOUNT DROPDOWN MENU
 ## One-time Plans Still Mentioned When Run Out of Credits in Bulk Optimizer and the Website Account Dropdown Menue
 https://secure.helpscout.net/conversation/1397903954/231854?folderId=676697 
 https://secure.helpscout.net/conversation/1437812406/242889?folderId=676697
 
-
-<br><br>
 ## IMAGIFY20 Coupon Code Banner Still Showing in Bulk Optimization Page
 
 
