@@ -26,6 +26,7 @@ Lay out all credits, prorated charges, and the final amount user will be charged
 <br><br>
 ## Could We Possibly Change How Updates Are Charged?
 https://secure.helpscout.net/conversation/1426138959/239537/
+
 https://wp-media.slack.com/archives/C7CTJKAA2/p1614062521002000
 - When upgrading from monthly to yearly, the charge is made immediately
 - But if upgrading from Growth monthly to Infinite monthly, the charge is not made immediately
