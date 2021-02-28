@@ -16,7 +16,6 @@ Lay out all credits, prorated charges, and the final amount user will be charged
 - Actual amount will be charged for upgrade
 - Normal payment going forward
 
-<br><br>
 ## Downgrades
 - Credit amount for unused portion of former plan
 - Prorated charge for remainder of billing period on new plan
