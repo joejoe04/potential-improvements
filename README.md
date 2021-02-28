@@ -8,7 +8,7 @@ https://github.com/wp-media/imagify/issues/886 - Allow admins to increase availa
 
 
 <br><br>
-# Suggestion for Upgrades / Downgrades
+# Suggestion for Subscription-related Issues
 Lay out all credits, prorated charges, and the final amount user will be charged for upgrade/downgrade during the checkout process:
 ## Upgrades
 - Credit amount for unused portion of former plan
@@ -32,28 +32,24 @@ https://wp-media.slack.com/archives/C7CTJKAA2/p1614062521002000
 - Also, if they happen to cancel that same month, they still end up getting charged for the upgrade at the end after they've unsubscribed and they get mad about the charge
 - They may also delete their card or PayPal billing agreement in the meantime and then we end up not getting the money for the upgrade at all.
 
-
-<br><br>
 ## Issue With Switching a User's Subscription to Annual Billing
 = Stripe (think Braintree too) does not register the change via cron job from Imagify when you set "Is Monthly" to No
 = It works if you're changing to a [plan] 3 months, but not if only changing the "Is Monthly" option
 
-
-<br><br>
 ## Cannot Switch PayPal Payments From Monthly to Yearyl or Vice Versa
 - Is this fixable from our end in any way?
 - Might involve process where making this change in Imagify profile does the following in Braintree:
     - Cancel current subscription
     - Create new subscription with new billing period (monthly or yearly) while charging only the amount for the upgrade minus the remaining value from previous plan
 
-
-<br><br>
 ## Subscription Page Shows $69.93 Price for Infinite Yearly Plan With WPR30 Coupon, But Charges Them $84.92
 https://secure.helpscout.net/conversation/1353317619/218627 
 https://secure.helpscout.net/conversation/1404252273/0/
 
 
 <br><br>
+# Error Messaging Suggestions
+
 ## Offer Better Optimization Error Messages
 - Is there any way to prevent cURL error 28 errors or timeouts during optimization from giving the error message that users are out of credit?
     - It leads to them buying more quota when they don't need it, or getting frustrated that they just bought a plan and think they've already run out of quota.
