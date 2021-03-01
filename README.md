@@ -126,25 +126,13 @@ https://secure.helpscout.net/conversation/1428722223/0/?folderId=676697
 # Bulk Optimizer Page Suggestions
 
 ## Make it clear to users that when the Bulk Optimizer is run multiple times, images that are already optimized are not re-optimized
-
 - Users often get the sense their quota is being wasted optimizing images that have already been optimzed when running Bulk Optimizer multiple times
-
 - Could state somewhere on the Bulk Optimization page that images already optimized at current level will not be re-optimized if you run Bulk Optimizer multiple times
-
 - I think the following may also contribute to this feeling from users. In this example, user has 8 images listed as already being optimized
 <img src="https://i.imgur.com/1SSLMxl.jpg">
-
 - But when you click "Imagif'em All" that number goes back down to 0, giving the impression that the 8 images may be being re-optimized
 <img src="https://i.imgur.com/wcRIrw3.jpg">
-
 - Instead, it may be better for this number to remain the same, and only increase if more images get optimized. The percentage could still start at 0% giving an indication of how much of the overall process has been completed as it makes its way to 100%
-
-## Improve Clarity of the Numbers in the "Overview" and "Optimize Media Files" sections
-
-- It often causes confusion for users that the numbers in the "Overview" section are based only on Image files only (excluding PDF, etc) while the numbers in the "Optimize Media Files" section are based on all media files.
-- Users don't understand why the numbers don't match up sometimes
-- Could change this so both display numbers for all media files so it's more consistent
-- Could also change the "Overview" section so it shows number and percentage of all media files optimized, then display subcategories for specific types, like images, PDFs, etc
 
 ## One-time Plans Still Mentioned When Run Out of Credits in Bulk Optimizer and the Website Account Dropdown Menue
 https://secure.helpscout.net/conversation/1397903954/231854?folderId=676697 <br>
@@ -164,25 +152,19 @@ https://secure.helpscout.net/conversation/1437812406/242889?folderId=676697
 
 - Above is a potential new way optimization information could be laid out for users
   - I think it organizes info in a way that's more intuitive for users, and is more concise
-
 - The first listing is how information is currently listed
-
 - The second one is how a listing could appear without the details expanded
   - Shows more information in same amount of space
   - I think users mostly want to know how much filesize savings they're getting, both in terms of the original filesize and the overall filesize, so I make both of these values visible along with the percentage savings
-
 - The third one shows a successfully optimized image expanded to show all details
   - Also allows options to restore to original and to re-optimize to different levels of compression
-
 - The fourth one shows how for images that need them, links for "Generate Missing WebP Images" or "Optimize Missing Thumbnails" links could be displayed
   - Also shows how space at the bottom could be used to display any notes or messages needed about a particular image
-
 - The fifth one shows how the WELL DONE... images could be displayed differently
   - When I first saw a "WELL DONE" image, I thought it meant something was wrong. I think this impression is given because the layout is different than the layout for successfully optimized images (it's more similar to error messages in my opinion) and also the "Try Again" button implies that it's necessary to try again for some reason
     - Example: https://wordpress.org/support/topic/difference-in-display-2/
   - This suggested layout gives less the impression that something is wrong, but instead just that no compression was needed at the current level, and it also gives them the option to try optimization at a different level if they want.
   - If needed, could also display a "Generate Missing WebP Images" too, which is more intuitive for users than the "Try Again" button.
-
 - One other point of confusion (that is not addressed in the image above) is that users often are confused that the "New Filesize" value is the file size of the WebP version when WebP creation is enabled. I've had many tickets where users are confused why the size of the image displayed on their page is different than the "New Filesize" value (happens when the jpg/png version is being displayed rather than the WebP version).
 
 ## When optimization is hanging in Media Library on images, would be nice to have a way to stop it
