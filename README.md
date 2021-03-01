@@ -44,9 +44,19 @@ https://wp-media.slack.com/archives/C7CTJKAA2/p1614062521002000
 
 ## Subscription Page Shows $69.93 Price for Infinite Yearly Plan With WPR30 Coupon, But Charges Them $84.92
 https://secure.helpscout.net/conversation/1353317619/218627 
+
 https://secure.helpscout.net/conversation/1404252273/0/
 
+## PayPal - Canceling Billing Agreement Also Cancels Imagify Subscription Immediately and Makes People Upset / Confused
+https://secure.helpscout.net/conversation/1347879945/215851 <br>
+https://secure.helpscout.net/conversation/1366196035/0/ 
 
+https://secure.helpscout.net/conversation/1366196035/222892/ 
+
+https://secure.helpscout.net/conversation/1379065998/226638/ 
+
+https://secure.helpscout.net/conversation/1378927409/226606/ 
+- 
 
 
 
