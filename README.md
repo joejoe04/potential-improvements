@@ -47,13 +47,21 @@ https://secure.helpscout.net/conversation/1353317619/218627
 https://secure.helpscout.net/conversation/1404252273/0/
 
 
+
+
+
+
+
 <br><br>
 # Error Messaging Suggestions
 
 ## Offer Better Optimization Error Messages
 - Is there any way to prevent cURL error 28 errors or timeouts during optimization from giving the error message that users are out of credit?
     - It leads to them buying more quota when they don't need it, or getting frustrated that they just bought a plan and think they've already run out of quota.
-    
+
+
+
+
 
 <br><br>
 # Bulk Optimizer Page Potential Improvements
