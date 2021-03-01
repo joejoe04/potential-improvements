@@ -125,16 +125,6 @@ https://secure.helpscout.net/conversation/1428722223/0/?folderId=676697
 <br><br>
 # Bulk Optimizer Page Suggestions
 
-## Make the quota used / quota left guage more consistent across the App and the plugin
-
-- Displays in the App as follows:
-<img src="https://i.imgur.com/VhNgfuG.jpg">
-
-- Displays in the plugin as follows:
-<img src="https://i.imgur.com/UKQ31aA.jpg">
-
-- Might be good to also display the 32.04 / 525MB used to make the experience more consistent
-
 ## Make it clear to users that when the Bulk Optimizer is run multiple times, images that are already optimized are not re-optimized
 
 - Users often get the sense their quota is being wasted optimizing images that have already been optimzed when running Bulk Optimizer multiple times
