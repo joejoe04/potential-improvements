@@ -23,8 +23,7 @@ Lay out all credits, prorated charges, and the final amount user will be charged
 - Normal payment amount after credit used
 
 ## Could We Possibly Change How Updates Are Charged?
-https://secure.helpscout.net/conversation/1426138959/239537/
-
+https://secure.helpscout.net/conversation/1426138959/239537/ <br>
 https://wp-media.slack.com/archives/C7CTJKAA2/p1614062521002000
 - When upgrading from monthly to yearly, the charge is made immediately
 - But if upgrading from Growth monthly to Infinite monthly, the charge is not made immediately
@@ -43,20 +42,44 @@ https://wp-media.slack.com/archives/C7CTJKAA2/p1614062521002000
     - Create new subscription with new billing period (monthly or yearly) while charging only the amount for the upgrade minus the remaining value from previous plan
 
 ## Subscription Page Shows $69.93 Price for Infinite Yearly Plan With WPR30 Coupon, But Charges Them $84.92
-https://secure.helpscout.net/conversation/1353317619/218627 
-
+https://secure.helpscout.net/conversation/1353317619/218627 <br>
 https://secure.helpscout.net/conversation/1404252273/0/
 
 ## PayPal - Canceling Billing Agreement Also Cancels Imagify Subscription Immediately and Makes People Upset / Confused
 https://secure.helpscout.net/conversation/1347879945/215851 <br>
-https://secure.helpscout.net/conversation/1366196035/0/ 
-
-https://secure.helpscout.net/conversation/1366196035/222892/ 
-
-https://secure.helpscout.net/conversation/1379065998/226638/ 
-
+https://secure.helpscout.net/conversation/1366196035/0/ <br>
+https://secure.helpscout.net/conversation/1366196035/222892/ <br> 
+https://secure.helpscout.net/conversation/1379065998/226638/ <br>
 https://secure.helpscout.net/conversation/1378927409/226606/ 
-- 
+- Could it be possible for this to schedule subscription to cancel instead, and then to also delete the payment method once the subscription gets canceled?
+    - I know this change happened when PayPal Billing Agreement Cancellations were automated, so I know this may not be possible.
+- If this isn't possible, we could at least add a warning to checkout page for PayPal asking users not to cancel their billing agreement or their subscriptions will be ended immediately
+
+## Users Stuck With Darkened Overlay on Subscriptions Page
+https://secure.helpscout.net/conversation/1364273307/0/?folderId=3985605 <br>
+https://secure.helpscout.net/conversation/1362150680/221749?folderId=676697 
+
+## Quota is Reset When Subscription Scheduled For Cancellation
+
+
+
+
+
+<br><br>
+# Marketing
+
+## Emails Going Out Sometimes Say "Congratulations on Optimizing 0 Images" While Also Saying Users Are Out of Quota
+https://secure.helpscout.net/conversation/1364725926/0/ <br>
+https://secure.helpscout.net/conversation/1384503319/0/ <br>
+https://secure.helpscout.net/conversation/1403868054/233515 
+
+## INFINITE20 / UNLIMITED20 Coupons Not Working For Some People
+https://secure.helpscout.net/conversation/1412414683/235880/ <br>
+https://secure.helpscout.net/conversation/1392358874/230218/ <br>
+https://secure.helpscout.net/conversation/1393963031/230663/ <br>
+https://secure.helpscout.net/conversation/1394798488/230913/ 
+- Often showing as expired or invalid
+
 
 
 
@@ -108,7 +131,7 @@ https://secure.helpscout.net/conversation/1378927409/226606/
 - Could also change the "Overview" section so it shows number and percentage of all media files optimized, then display subcategories for specific types, like images, PDFs, etc
 
 ## One-time Plans Still Mentioned When Run Out of Credits in Bulk Optimizer and the Website Account Dropdown Menue
-https://secure.helpscout.net/conversation/1397903954/231854?folderId=676697 
+https://secure.helpscout.net/conversation/1397903954/231854?folderId=676697 <br>
 https://secure.helpscout.net/conversation/1437812406/242889?folderId=676697
 
 ## IMAGIFY20 Coupon Code Banner Still Showing in Bulk Optimization Page
