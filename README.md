@@ -38,8 +38,8 @@ https://wp-media.slack.com/archives/C7CTJKAA2/p1614062521002000
 - They may also delete their card or PayPal billing agreement in the meantime and then we end up not getting the money for the upgrade at all.
 
 ## Issue With Switching a User's Subscription to Annual Billing
-= Stripe (think Braintree too) does not register the change via cron job from Imagify when you set "Is Monthly" to No
-= It works if you're changing to a [plan] 3 months, but not if only changing the "Is Monthly" option
+- Stripe (think Braintree too) does not register the change via cron job from Imagify when you set "Is Monthly" to No
+- It works if you're changing to a 'plan' 3 months, but not if only changing the "Is Monthly" option
 
 ## Cannot Switch PayPal Payments From Monthly to Yearyl or Vice Versa
 - Is this fixable from our end in any way?
