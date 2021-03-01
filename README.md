@@ -6,10 +6,16 @@ https://github.com/wp-media/imagify/issues/714 - When scheduling a cancellation,
 
 https://github.com/wp-media/imagify/issues/886 - Allow admins to increase available quota by any value
 
+https://github.com/wp-media/imagify-plugin/issues/521 - Fix WebP Not Resizing Issue
+
+
+
+
 
 <br><br>
 # Suggestion for Subscription-related Issues
 Lay out all credits, prorated charges, and the final amount user will be charged for upgrade/downgrade during the checkout process:
+
 ## Upgrades
 - Credit amount for unused portion of former plan
 - Prorated charge for remainder of billing period on new plan
@@ -66,7 +72,7 @@ https://secure.helpscout.net/conversation/1362150680/221749?folderId=676697
 
 
 <br><br>
-# Marketing
+# Marketing Issues Suggestions
 
 ## Emails Going Out Sometimes Say "Congratulations on Optimizing 0 Images" While Also Saying Users Are Out of Quota
 https://secure.helpscout.net/conversation/1364725926/0/ <br>
@@ -86,18 +92,38 @@ https://secure.helpscout.net/conversation/1394798488/230913/
 
 
 <br><br>
-# Error Messaging Suggestions
+# General UI / UX and Other Options Suggestions
 
 ## Offer Better Optimization Error Messages
 - Is there any way to prevent cURL error 28 errors or timeouts during optimization from giving the error message that users are out of credit?
     - It leads to them buying more quota when they don't need it, or getting frustrated that they just bought a plan and think they've already run out of quota.
+
+## Confusing Display Issues When User Has Infinite Plan and Also One-Time Quota
+https://secure.helpscout.net/conversation/1437476847/242752?folderId=3985605 <br>
+https://secure.helpscout.net/conversation/1428722223/0/?folderId=676697 
+- "You have nn% credit left" displayed based on how much one-time quota is left. 
+    - Confuses users because they think they should be shown that they have unlimited quota
+- "You have 0% credit left" displayed if sub-accounts granted more quota than amount of one-time quota user has
+<img src="https://i.imgur.com/Tp0QfVi.png">
+- Also, when this is the case, in the Bulk and Settings pages, you get the "You have 0% space credit left" banner
+
+## Missing WebP Versions in the Settings Page
+- When it lists NNN images with missing WebP versions, it would be very much helpful if it would also list which images it is referring to. 
+- When users have 10s of thousands of images and this isn't working, it's very hard to offer them a good solution because there's no way to know which images it's referring to without searching manually through all images.
+
+## Consider Adding Option to Specify Whether WebP Images Should Be Generated If They'll Be Larger Than Original Format
+- Same as option #3 in https://wordpress.org/plugins/webp-express/
+- Would be good for those using CDN/Cloudflare who also have image display issues with picture tag option
+- Might even be worth considering having this option not check for WebP compatibility because sometime in the near future it may no longer be necessary with Safari finally starting to support WebP and I can see users wanting a function to just swap out all their image URLs to the WebP version so they don't need to manually change them for all their pages.
+
+## Should we add "Not to be used with Cloudflare" warning by the "Use rewrite rules" option?
 
 
 
 
 
 <br><br>
-# Bulk Optimizer Page Potential Improvements
+# Bulk Optimizer Page Suggestions
 
 ## Make the quota used / quota left guage more consistent across the App and the plugin
 
@@ -176,13 +202,5 @@ https://secure.helpscout.net/conversation/1437812406/242889?folderId=676697
 
 <br><br>
 ## Suggestions for the Online App
-
-- Users with One Time quota not able to use the "Auto Convert PNG to JPEG" option. Should they be?
 - Dynamically add year in footer so it stays up to date. Currently displays © WP MEDIA 2017
 
-
-<br><br>
-## Issue Where Multiple Invoices Generated
-https://secure.helpscout.net/conversation/1281787405/194734 <br>
-- For seemingly random reasons, sometimes accounts have many invoices generated in Facturation for the same charge
-- Invoices can be created multiple times on different days
