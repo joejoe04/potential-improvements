@@ -52,17 +52,17 @@ https://secure.helpscout.net/conversation/1353317619/218627 <br>
 https://secure.helpscout.net/conversation/1404252273/0/
 
 ## PayPal - Canceling Billing Agreement Also Cancels Imagify Subscription Immediately and Makes People Upset / Confused
-https://secure.helpscout.net/conversation/1347879945/215851 <br>
-https://secure.helpscout.net/conversation/1366196035/0/ <br>
-https://secure.helpscout.net/conversation/1366196035/222892/ <br> 
-https://secure.helpscout.net/conversation/1379065998/226638/ <br>
+https://secure.helpscout.net/conversation/1347879945/215851
+https://secure.helpscout.net/conversation/1366196035/0/
+https://secure.helpscout.net/conversation/1366196035/222892/
+https://secure.helpscout.net/conversation/1379065998/226638/
 https://secure.helpscout.net/conversation/1378927409/226606/ 
 - Could it be possible for this to schedule subscription to cancel instead, and then to also delete the payment method once the subscription gets canceled?
     - I know this change happened when PayPal Billing Agreement Cancellations were automated, so I know this may not be possible.
 - If this isn't possible, we could at least add a warning to checkout page for PayPal asking users not to cancel their billing agreement or their subscriptions will be ended immediately
 
 ## Users Stuck With Darkened Overlay on Subscriptions Page
-https://secure.helpscout.net/conversation/1364273307/0/?folderId=3985605 <br>
+https://secure.helpscout.net/conversation/1364273307/0/?folderId=3985605
 https://secure.helpscout.net/conversation/1362150680/221749?folderId=676697 
 
 ## Quota is Reset When Subscription Scheduled For Cancellation
@@ -112,6 +112,8 @@ https://secure.helpscout.net/conversation/1428722223/0/?folderId=676697
 - When users have 10s of thousands of images and this isn't working, it's very hard to offer them a good solution because there's no way to know which images it's referring to without searching manually through all images.
 
 ## Consider Adding Option to Specify Whether WebP Images Should Be Generated If They'll Be Larger Than Original Format
+
+## Provide additional WebP display method that changes image URLs directly
 - Same as option #3 in https://wordpress.org/plugins/webp-express/
 - Would be good for those using CDN/Cloudflare who also have image display issues with picture tag option
 - Might even be worth considering having this option not check for WebP compatibility because sometime in the near future it may no longer be necessary with Safari finally starting to support WebP and I can see users wanting a function to just swap out all their image URLs to the WebP version so they don't need to manually change them for all their pages.
